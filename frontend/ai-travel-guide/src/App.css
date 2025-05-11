@@ -1,0 +1,15 @@
+#main {
+  display: flex; /* Arrange child elements (mainContent and sideContent) in a row */
+  gap: 20px; /* Adds space between the two divs */
+}
+
+#mainContent {
+  flex: 3; /* This div will take 3 parts of the available space */
+  padding: 20px;
+}
+
+#sideContent {
+  flex: 1; /* This div will take 1 part of the available space */
+  padding: 20px;
+  
+}
